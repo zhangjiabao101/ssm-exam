@@ -2,7 +2,7 @@ package com.aaa.util;
 
 /**
  * 适用于layui中的分页插件
- * @author 张家宝
+ * @author 淮南King
  * @date 2020-07-04
  */
 public class LayuiPageHelper {

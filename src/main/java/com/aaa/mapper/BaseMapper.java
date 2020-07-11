@@ -7,7 +7,7 @@ import java.util.List;
 
 /**
  * Mapper模板
- * @author 张家宝
+ * @author 淮南King
  * @date 2020-07-04
  */
 public interface BaseMapper<T> {

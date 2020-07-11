@@ -6,6 +6,7 @@
 ## 前端
 1. 使用layui进行页面美化，[layui官网传送门](https://www.layui.com/doc/)
 2. 前端使用Ajax向后端发送请求
+3.  list为显示表格页面，form为添加和修改的页面，通过url带参数让form页面进行动态改变
 
 ## 后端
 1. 需要fastjson插件，在pom文件中有坐标，建议使用1.2.72版本

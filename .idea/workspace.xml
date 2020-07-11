@@ -69,10 +69,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Project\Project_Java\ssm-big-exam-ready" />
       <recent name="E:\Project\Project_Java\ssm-big-exam-ready\src\main\webapp\jsp\StudentAndGrade" />
       <recent name="E:\Project\Project_Java\ssm-big-exam-ready\src\main\webapp\static\css" />
       <recent name="E:\Project\Project_Java\ssm-big-exam-ready\src\main\webapp" />
@@ -212,7 +213,7 @@
       <workItem from="1594270852744" duration="1336000" />
       <workItem from="1594277021237" duration="769000" />
       <workItem from="1594338386425" duration="19849000" />
-      <workItem from="1594428422766" duration="16314000" />
+      <workItem from="1594428422766" duration="18598000" />
     </task>
     <servers />
   </component>
@@ -252,22 +253,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="225" y="30" key="GrepConsoleSettings/0.0.1366.738@0.0.1366.738" timestamp="1593831915137" />
-    <state width="1323" height="191" key="GridCell.Tab.0.bottom" timestamp="1594450714930">
+    <state width="1323" height="191" key="GridCell.Tab.0.bottom" timestamp="1594451700644">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="191" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1594450714930" />
-    <state width="1323" height="191" key="GridCell.Tab.0.center" timestamp="1594450714930">
+    <state width="1323" height="191" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1594451700644" />
+    <state width="1323" height="191" key="GridCell.Tab.0.center" timestamp="1594451700644">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="191" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1594450714930" />
-    <state width="1323" height="191" key="GridCell.Tab.0.left" timestamp="1594450714930">
+    <state width="1323" height="191" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1594451700644" />
+    <state width="1323" height="191" key="GridCell.Tab.0.left" timestamp="1594451700644">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="191" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1594450714930" />
-    <state width="1323" height="191" key="GridCell.Tab.0.right" timestamp="1594450714930">
+    <state width="1323" height="191" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1594451700644" />
+    <state width="1323" height="191" key="GridCell.Tab.0.right" timestamp="1594451700644">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="191" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1594450714930" />
+    <state width="1323" height="191" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1594451700644" />
     <state width="1067" height="300" key="GridCell.Tab.1.bottom" timestamp="1594449484320">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -352,10 +353,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="213" y="26" key="Maven.ArtifactSearchDialog/0.0.1366.738@0.0.1366.738" timestamp="1594437189045" />
-    <state x="173" y="15" key="SettingsEditor" timestamp="1594449712519">
+    <state x="173" y="15" key="SettingsEditor" timestamp="1594453022407">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="173" y="15" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1594449712519" />
+    <state x="173" y="15" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1594453022407" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1593993938183">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
