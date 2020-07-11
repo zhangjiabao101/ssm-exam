@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.aaa.mapper.StudentAndGradeMapper">
+
+    <select id="findPage" resultType="com.aaa.entity.DTO.StudentAndGrade" parameterType="com.aaa.util.LayuiPageHelper">
+        select g.id gId, g.name gName,g.address,g.create_date,s.id sId,s.name sName,s.age,s.home,s.phone from grade g
+                  right join student s on g.id=s.g_id
+        where s.name like '%${beans.sName}%'
+        limit #{page.begin},#{page.limit}
+    </select>
+
+    <select id="dataCount" parameterType="com.aaa.entity.DTO.StudentAndGrade" resultType="int">
+        select count(*) from grade g
+        right join student s on g.id=s.g_id
+        where s.name like '%${beans.sName}%'
+    </select>
+
+    <insert id="insert" useGeneratedKeys="true" keyColumn="id" keyProperty="sId">
+        insert into student(name, age, phone, home, g_id) values (#{student.sName},#{student.age},#{student.phone},#{student.home},#{student.gId});
+    </insert>
+
+    <select id="findOne" resultType="com.aaa.entity.DO.Student">
+        select g.id gId, g.name gName,g.address,g.create_date,s.id sId,s.name sName,s.age,s.home,s.phone from grade g
+                  right join student s on g.id=s.g_id
+        where s.id = #{student.sId}
+    </select>
+
+    <update id="update">
+        update student set name = #{student.sName},age=#{student.age},phone=#{student.phone},home=#{student.home},g_id=#{student.gId} where id=#{student.sId};
+    </update>
+
+    <delete id="delete">
+        delete from student where id=#{student.sId}
+    </delete>
+</mapper>

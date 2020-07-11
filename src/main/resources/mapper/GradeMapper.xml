@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.aaa.mapper.GradeMapper">
+
+    <select id="findPage" resultType="com.aaa.entity.DO.Grade">
+        select id gId,name gName,address,create_date from grade g
+        where name like '%${beans.gName}%'
+        limit #{page.begin},#{page.limit}
+    </select>
+
+    <select id="dataCount" resultType="int">
+         select count(*) from grade g
+        where name like '%${beans.gName}%'
+
+    </select>
+
+    <insert id="insert">
+        insert into grade(name, address,create_date) values (#{beans.gName},#{beans.address},#{beans.createDate});
+    </insert>
+
+    <select id="findOne" resultType="com.aaa.entity.DO.Grade">
+        select id gId,name gName,address,create_date from grade where id = #{beans.gId};
+    </select>
+
+    <update id="update">
+        update grade set name = #{beans.gName},address=#{beans.address},create_date=#{beans.createDate} where id=#{beans.gId};
+    </update>
+
+    <delete id="delete">
+        delete from grade where id=#{beans.gId}
+    </delete>
+</mapper>
